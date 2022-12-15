@@ -38,3 +38,13 @@ Route::View('/authentication-login','authentication-login');
 Route::View('/authentication-register','authentication-register');
 
 
+
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified'
+])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+});
