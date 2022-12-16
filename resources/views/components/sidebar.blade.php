@@ -212,7 +212,46 @@
                   </li>
                 </ul>
               </li>
-              
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link waves-effect waves-dark sidebar-link"
+                  href="donorRegister"
+                  aria-expanded="false"
+                  ><i class="mdi mdi-account-plus"></i
+                  ><span class="hide-menu">Donor Register</span></a
+                >
+              </li>
+
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link waves-effect waves-dark sidebar-link"
+                  href="donorTable"
+                  aria-expanded="false"
+                  ><i class="mdi mdi-account-search"></i
+                  ><span class="hide-menu">Donor Table</span></a
+                >
+              </li>
+
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link waves-effect waves-dark sidebar-link"
+                  href="bloodTable"
+                  aria-expanded="false"
+                  ><i class="mdi mdi-water"></i
+                  ><span class="hide-menu">Blood Table</span></a
+                >
+              </li>
+
+              <li class="sidebar-item">
+                <a
+                  class="sidebar-link waves-effect waves-dark sidebar-link"
+                  href="recipientTable"
+                  aria-expanded="false"
+                  ><i class="mdi mdi-table-edit"></i
+                  ><span class="hide-menu">Recipient Table</span></a
+                >
+              </li>
+
             </ul>
           </nav>
           <!-- End Sidebar navigation -->

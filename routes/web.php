@@ -36,5 +36,8 @@ Route::View('/pages-gallery','pages-gallery');
 Route::View('/pages-invoice','pages-invoice');
 Route::View('/authentication-login','authentication-login');
 Route::View('/authentication-register','authentication-register');
-
+Route::View('/donorRegister','donorRegister');
+Route::View('/donorTable','donorTable');
+Route::View('/bloodTable','bloodTable');
+Route::View('/recipientTable','recipientTable');
 
